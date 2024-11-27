@@ -41,7 +41,7 @@ services:
     image: kingdave4/vprofileweb-v2
     container_name: vproweb
     ports:
-      - "80:80"s
+      - "80:80"
 
 volumes:
   vprodbdata: {}
