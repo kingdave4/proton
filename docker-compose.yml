@@ -13,7 +13,7 @@ services:
       - MYSQL_ROOT_PASSWORD=vprodbpass
   
   vprocache01:
-    image: memcache:latest
+    image: memcached:latest
     container_name: vprocache01
     ports:
       - "11211:11211"
