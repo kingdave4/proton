@@ -3,7 +3,7 @@ LABEL "PROJECT"="Vprofile-v2"
 LABEL  "Author"="Kingdave"
 
 #RUN rm -rf /etc/nginx/nginx.conf
-RUN rm -rf /etc/nginx/conf.d/default.conf
+RUN rm -rf /etc/nginx/conf.d/*
 
 #COPY nginvproapp.conf /etc/nginx/vproapp.conf
 
